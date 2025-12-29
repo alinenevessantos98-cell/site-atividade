@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Acompanhamento de Curso - Aluno</title>
+
+    <!-- Meta viewport para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #0a3d62;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1e3799;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+        }
+
+        h2 {
+            color: #0a3d62;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Responsividade simples */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Acompanhamento do Curso</h1>
+        <p>Site simples inspirado na Alura</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Meu Progresso</a>
+        <a href="#">Conteúdos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+
+        <h2>Sobre o Site</h2>
+        <div class="card">
+            <p>
+                Este site foi criado para acompanhar a evolução do aluno em um curso online.
+                Ele mostra conteúdos estudados, progresso e informações importantes,
+                funcionando tanto em computador quanto em celular.
+            </p>
+        </div>
+
+        <h2>Progresso do Aluno</h2>
+        <div class="card">
+            <ul>
+                <li>Lógica de Programação – Concluído</li>
+                <li>HTML e CSS – Em andamento</li>
+                <li>JavaScript – Não iniciado</li>
+            </ul>
+        </div>
+
+        <h2>Conceitos de Internet</h2>
+        <div class="card">
+            <p>
+                O protocolo HTTP é usado para comunicação entre navegador e servidor,
+                utilizando portas 80 (HTTP) e 443 (HTTPS), com segurança através de TLS.
+                Já o SMTP é usado para envio de e-mails, normalmente nas portas 25 ou 587,
+                enquanto POP3 e IMAP são usados para recebimento das mensagens.
+            </p>
+        </div>
+
+        <h2>Cache e Desempenho</h2>
+        <div class="card">
+            <p>
+                O cache permite que páginas já visitadas carreguem mais rápido,
+                armazenando dados temporários no navegador. Isso pode ser controlado
+                por políticas como cache-control e expires.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Site educacional simples - Inspirado na Alura</p>
+    </footer>
+
+</body>
+</html>
